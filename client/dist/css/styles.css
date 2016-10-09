@@ -25,6 +25,10 @@ body {
   color: #FF9F1C !important;
 }
 
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
 /*home component*/
 
 h1 {
@@ -172,14 +176,7 @@ h1.home-header.topGlobal {
   flex-grow: 2;
 }
 
-/*Profile Component*/
-.profile--userPic {
-  width: 100px;
-}
 
-.comment--userPic {
-  width: 40px;
-}
 
 /*Media queries*/
 
@@ -346,3 +343,15 @@ h1.home-header.topGlobal {
   margin: 0 3px;
 }
 
+/*Profile Component*/
+.profile--userPic {
+  width: 100px;
+}
+
+.comment--userPic {
+  width: 40px;
+}
+
+.profileButton {
+  margin-bottom: 15px;
+}
